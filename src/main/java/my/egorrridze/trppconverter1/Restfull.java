@@ -71,12 +71,25 @@ public class Restfull {
     )
     public List<String> getValues(@RequestParam String type){
         List<String> arr = new ArrayList<>();
+
         if (type.equals("mass")){
             for (Value v : values.massValue)
                 arr.add(v.name);
         }
         else if (type.equals("length")){
             for (Value v : values.lengthValue)
+                arr.add(v.name);
+        }
+        else if (type.equals("volume")){
+            for (Value v : values.volumeValue)
+                arr.add(v.name);
+        }
+        else if (type.equals("speed")){
+            for (Value v : values.speedValue)
+                arr.add(v.name);
+        }
+        else if (type.equals("time")) {
+            for (Value v : values.timeValue)
                 arr.add(v.name);
         }
 
