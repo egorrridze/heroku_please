@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35b77c87-f771-423f-829b-c9b881e33182" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/serviceNew.iws" beforeDir="false" afterPath="$PROJECT_DIR$/serviceNew.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/egorrridze/trppconverter1/RunApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/egorrridze/trppconverter1/RunApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/egorrridze/trppconverter1/Restfull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/egorrridze/trppconverter1/Restfull.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <workItem from="1622415565553" duration="11937000" />
       <workItem from="1622455210811" duration="6503000" />
       <workItem from="1622468133138" duration="8525000" />
-      <workItem from="1622568849313" duration="2682000" />
+      <workItem from="1622568849313" duration="3411000" />
     </task>
     <servers />
   </component>
