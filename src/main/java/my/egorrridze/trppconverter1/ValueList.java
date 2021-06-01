@@ -32,6 +32,7 @@ public class ValueList {
 
         Collections.addAll(massValue, kilogram, gram, centner, tonne, pound);
 
+
         Value meter = new Value("м", 1);
         Value kilometer = new Value("км", 1000);
         Value centimeter = new Value("см", 0.01);
@@ -41,6 +42,7 @@ public class ValueList {
 
         Collections.addAll(lengthValue, meter, kilometer, centimeter, millimeter, inch, mile);
 
+
         Value cubic_meters = new Value("кубм", 1);
         Value litres = new Value("л", 0.001);
         Value cubic_centimeters = new Value("кубсм", 0.000001);
@@ -48,12 +50,14 @@ public class ValueList {
 
         Collections.addAll(volumeValue, cubic_meters, litres, cubic_centimeters, pint);
 
+
         Value km_hours = new Value("км_ч", 1);
         Value m_second = new Value("м_с", 3.6);
         Value knot = new Value("узлов", 1.85184);
         Value m_hours = new Value("миль_ч", 1.6092);
 
         Collections.addAll(speedValue, km_hours, m_second, knot, m_hours);
+
 
         Value seconds = new Value("с", 1);
         Value minutes = new Value("мин", 60);
@@ -63,7 +67,6 @@ public class ValueList {
 
         Collections.addAll(timeValue, seconds, minutes, hours, days, years);
 
-        //  время
 
         Collections.addAll(values, kilogram, gram, centner, tonne, pound, meter, kilometer, centimeter, millimeter, inch, mile,
                 cubic_meters, litres, cubic_centimeters, pint, km_hours, m_second, knot, m_hours, seconds, minutes, hours, days, years);
@@ -75,5 +78,17 @@ public class ValueList {
 
     public List<Value> getLengthValue() {
         return lengthValue;
+    }
+
+    public List<Value> getVolumeValue() {
+        return volumeValue;
+    }
+
+    public List<Value> getSpeedValue() {
+        return speedValue;
+    }
+
+    public List<Value> getTimeValue() {
+        return timeValue;
     }
 }

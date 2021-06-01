@@ -53,12 +53,12 @@ public class Restfull {
     @RequestMapping(
             value = "/convert",
             method = RequestMethod.GET)
-    public double convert(@RequestParam String from, double num, String to) {
+    public double convert(@RequestParam String from, String num, String to) {
         for (Value v : values.values) {
             if (v.getName().equalsIgnoreCase(from)) {
                 for (Value v1 : values.values) {
                     if (v1.getName().equalsIgnoreCase(to))
-                        return num * v.coefficient / v1.coefficient;
+                        return Double.parseDouble(num) * v.coefficient / v1.coefficient;
                 }
             }
         }
