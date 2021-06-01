@@ -55,14 +55,29 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceNewApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.RunApp (1)">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="serviceNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.egorrridze.trppconverter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.egorrridze.trppconverter1.RunApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,9 +133,11 @@
     <list>
       <item itemvalue="Spring Boot.ServiceNewApplication" />
       <item itemvalue="Spring Boot.RunApp" />
+      <item itemvalue="Spring Boot.RunApp (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RunApp (1)" />
         <item itemvalue="Spring Boot.RunApp" />
       </list>
     </recent_temporary>

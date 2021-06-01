@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @RestController
 public class Restfull {
@@ -60,5 +62,23 @@ public class Restfull {
             }
         }
         return 404;
+    }
+
+    @RequestMapping(
+            value = "/getValues",
+            method = RequestMethod.GET
+    )
+    public List<String> getValues(@RequestParam String type){
+        List<String> arr = new ArrayList<>();
+        if (type.equals("масса")){
+            for (Value v : values.massValue)
+                arr.add(v.name);
+        }
+        else if (type.equals("длина")){
+            for (Value v : values.lengthValue)
+                arr.add(v.name);
+        }
+
+        return arr;
     }
 }
