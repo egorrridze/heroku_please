@@ -59,15 +59,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RunApp (1)">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,7 +173,7 @@
       <workItem from="1622415565553" duration="11937000" />
       <workItem from="1622455210811" duration="6503000" />
       <workItem from="1622468133138" duration="8525000" />
-      <workItem from="1622568849313" duration="7638000" />
+      <workItem from="1622568849313" duration="9287000" />
     </task>
     <servers />
   </component>
