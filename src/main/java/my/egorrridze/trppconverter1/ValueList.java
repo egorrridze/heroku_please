@@ -24,8 +24,8 @@ public class ValueList {
         this.speedValue = new ArrayList<>();
         this.timeValue = new ArrayList<>();
 
-        Value kilogram = new Value("kg", 1);
-        Value gram = new Value("g", 0.001);
+        Value kilogram = new Value("кг", 1);
+        Value gram = new Value("г", 0.001);
         Value centner = new Value("ц", 100);
         Value tonne = new Value("т", 1000);
         Value pound = new Value("фунтов",0.453592);
